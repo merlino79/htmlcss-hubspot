@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-  size: 30px;
+  
 }
 
 .clarfix::after{
@@ -17,7 +16,8 @@
   margin: auto;
   max-width: 1900px;
   min-width: 1200px;
-  background-color: aqua;
+  
+ 
 
 }
 
@@ -26,9 +26,11 @@
 }
 
 header{
-  height: 850px;
-  background-color:#698D89;
+  height: 751px;
+  background-color: #AFEBE4;
+  border-bottom: 2px solid #626262;
   width: 100%;
+  position: relative;
 }
 
 nav{
@@ -36,3 +38,11 @@ nav{
   background-color: #6d8d69;
 }
 
+.sfondo-header{
+  background-image: url(../img/jumbotron.png);
+  width: 100%;
+  height: 685px;
+  background-size: 118% 115%;
+  background-repeat: no-repeat;
+ 
+}
