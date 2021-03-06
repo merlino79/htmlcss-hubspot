@@ -5,6 +5,7 @@
   
 }
 
+/* classi iniziali */
 .clarfix::after{
   content: '';
   display: table;
@@ -25,6 +26,7 @@
   float: left;
 }
 
+/* header  */
 header{
   height: 751px;
   background-color: #AFEBE4;
@@ -32,6 +34,8 @@ header{
   width: 100%;
   position: relative;
 }
+
+
 
 nav{
   height: 150px;
@@ -55,3 +59,7 @@ nav{
 
 
 }
+
+/* fine nav  */
+
+/* primo asset */
