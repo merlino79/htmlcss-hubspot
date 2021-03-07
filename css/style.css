@@ -21,8 +21,17 @@
 
 header{
   
-  height: 750px;
+  height: 650px;
   background-image: url(../img/jumbotron.png);
+  background-size: 1440px;
+  background-repeat: no-repeat;
+  background-position: 110% 100%;
+ 
+}
+
+.container{
+height: 750px;
+
 }
 
 
@@ -32,15 +41,25 @@ nav{
   height: 150px;
   padding: 0 10%;
   background-color: aqua;
- 
+}
+.nav-up ul{
+  list-style: none;
+  text-transform: capitalize;
+  
+}
 
+.nav-up li a{
+  text-decoration: none;
 
 }
+
+
+
 .nav-up{
   line-height: 75px;
   height: 75px;
   border-bottom: 2px solid black;
-}
+  
 
 /* nav down */
 
@@ -67,6 +86,11 @@ nav{
 .jambatron-text{
   
   line-height: 450px;
+}
+
+.interspazio{
+  height: 50px;
+  background-color: lightgreen;
 }
 
 /* fine nav  */
