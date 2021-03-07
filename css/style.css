@@ -5,6 +5,11 @@
   
 }
 
+body{
+  max-width: 1900px;
+  min-width: 1200px;
+}
+
 /* classi iniziali */
 .clarfix::after{
   content: '';
@@ -26,14 +31,9 @@ header{
   background-size: 1440px;
   background-repeat: no-repeat;
   background-position: 110% 100%;
+  background-color: #fff8ee;;
  
 }
-
-.container{
-height: 750px;
-
-}
-
 
 
 
@@ -80,7 +80,7 @@ nav li{
 .jambatron{
   width: 700px;
   height: 450px;
-  background-color:rgb(255, 188, 188);
+  
   margin-left: 30px;
 
 }
@@ -98,6 +98,12 @@ nav li{
 /* fine nav  */
 
 /* primo asset */
+
+.conteiner{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
 
 .box1{
   height: 412px;
