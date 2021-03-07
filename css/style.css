@@ -20,34 +20,37 @@
 /* header  */
 
 header{
-  background-color: #999999;
+  
   height: 750px;
+  background-image: url(../img/jumbotron.png);
 }
 
-.conteiner{
-  
-
-  
-  border-bottom: 2px solid #42ce70;
-  width: 100%;
-  position: relative;
-}
 
 
 
 nav{
   height: 150px;
   padding: 0 10%;
+  background-color: aqua;
  
 
 
 }
 .nav-up{
-  width: 100%;
+  line-height: 75px;
   height: 75px;
+  border-bottom: 2px solid black;
 }
 
 /* nav down */
+
+.nav-down{
+  line-height: 75px;
+  height: 75px;
+
+  
+}
+
 .logo img{
   width: 75px;
  
