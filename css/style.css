@@ -7,7 +7,7 @@
 
 body{
   max-width: 1900px;
-  min-width: 1200px;
+  min-width: 1400px;
 }
 
 /* classi iniziali */
@@ -46,6 +46,7 @@ header{
 
 }
 
+/* parte suoperiore nav  */
 .nav-up{
   height: 75px;
   line-height: 75px;
@@ -53,13 +54,24 @@ header{
   
 }
 
+.link-sx{
+  width: 700px;
 
+}
 
-.nav-down{
+.link-dx{
+  width: 700px;
+  text-align: right;
+  
+}
+
+/* parte inferiore nav  */
+
+/* .nav-down{
   height: 75px;
   line-height: 75px;
   background-color: #FFFFFF;
-}
+} */
 
 
 
