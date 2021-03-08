@@ -57,19 +57,16 @@ header {
   text-align: right;
 }
 
-.link-sx, .link-dx li {
+.link-sx li, .link-dx li {
   display: inline;
   padding: 0 2%;
 }
-
-
-.link-sx a {
+.link-sx a, .link-dx a {
   text-decoration: none;
 }
 
-.link-dx a {
-  text-decoration: none;
-}
+
+
 
 .pad a {
   border-right: 1px solid black;
