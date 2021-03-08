@@ -223,7 +223,7 @@ button{
   height: 335px;
   position: absolute;
   left:;
-  top:256%;
+  
   width: 850px;
  
 }
@@ -241,6 +241,23 @@ button{
 
 }
 
+/* inizio classi a tre colonne  */
+.conteiner{
+  width: 100%;
+  padding: 0 10%;
+}
+
+.marketing{
+  height: 745px;
+  
+}
+
+.col{
+  height: 745px;
+  background-color: blueviolet;
+  width: 32%;
+  margin: 10px;
+}
 
 
 
