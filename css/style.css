@@ -174,8 +174,10 @@ button{
 .hub-spot{
  height: 350px;
  width: 30%;
+ border-width: 1px 1px;
+ border-color: chartreuse;
  
-  border: 1px solid olive;
+  
  
  
 }
@@ -208,13 +210,38 @@ button{
 
 }
 
-.free-hub-txt{
+.free-hub-spot{
   width: 70%;
   height: 350px;
-  background-color: beige;
+  
+  
+
  
   
 }
+.free-hub-txt{
+  height: 335px;
+  position: absolute;
+  left:;
+  top:256%;
+  width: 850px;
+ 
+}
+.free-hub-txt h3 {
+  margin-bottom: 20px;
+}
+
+.free-hub-txt p{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.free-hub-txt h4{
+  margin-bottom: 20px;
+
+}
+
+
 
 
 
