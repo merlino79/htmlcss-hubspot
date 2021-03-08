@@ -41,26 +41,18 @@ header{
   width: 1900px;
   padding: 0 10%;
   background-color: beige;
-  line-height: 100px;
+  
 
 }
 
-.link-sx{
-  width: 660px;
-  height: 150px;
-  display: inline-block;
-  background-color: rgb(176, 176, 221);
+.nav-up{
+  height: 75px;
+  background-color: blueviolet;
 }
-
-.link-dx{
-  width: 750px;
-  height: 150px;
-  background-color: aqua;
-  display: inline-block;
+.nav-down{
+  height: 75px;
+  background-color: burlywood;
 }
-
-
-
 
 .logo img{
   width: 75px;
