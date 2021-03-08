@@ -1,31 +1,28 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
-body{
+body {
   max-width: 1900px;
   min-width: 1400px;
 }
 
 /* classi iniziali */
-.clarfix::after{
-  content: '';
+.clarfix::after {
+  content: "";
   display: table;
   clear: both;
 }
 
-
-.float-left{
+.float-left {
   float: left;
 }
 
 /* header  */
 
-header{
-  
+header {
   height: 790px;
   /* background-image: url(../img/jumbotron.png);
   background-size: 1440px;
@@ -36,110 +33,92 @@ header{
   background-color: aqua;
 }
 
-.nav-conteiner{
+.nav-conteiner {
   height: 150px;
   width: 1900px;
   padding: 0 10%;
-  background-color: #F4F9FD;
-  ;
-  
-
+  background-color: #f4f9fd;
 }
 
 /* parte suoperiore nav  */
-.nav-up{
+.nav-up {
   height: 75px;
   line-height: 75px;
-  background-color: #F4F9FD;
+  background-color: #f4f9fd;
   border-bottom: 1px solid olive;
-  
 }
-
 
 .link-sx {
   width: 300px;
-
 }
 
-.link-dx{
+.link-dx {
   width: 1200px;
   text-align: right;
 }
 
-.link-sx  li{
+.link-sx li {
   display: inline;
   padding: 0 2%;
 }
 
-.link-dx li{
+.link-dx li {
   display: inline;
   padding: 0 2%;
 }
 
-.link-sx  a{
-  text-decoration: none;
-  
-}
-
-.link-dx a{
+.link-sx a {
   text-decoration: none;
 }
 
-.pad a{
+.link-dx a {
+  text-decoration: none;
+}
+
+.pad a {
   border-right: 1px solid black;
 }
 
-
-
-.nav-down{
+.nav-down {
   height: 75px;
   line-height: 75px;
 }
 
-
-
-
-
-.logo img{
+.logo img {
   width: 75px;
- 
 }
 
-
-.jambatron-text{
-  
+.jambatron-text {
   line-height: 450px;
 }
 
-.interspazio{
+.interspazio {
   height: 50px;
   background-color: lightgreen;
-} */
+}
+*/
 
 /* fine nav  */
 
 /* primo asset */
 
-.conteiner{
+.conteiner {
   width: 80%;
   height: 100%;
   margin: auto;
 }
 
-.box1{
+.box1 {
   height: 412px;
   background-color: cornflowerblue;
-
 }
 
-
-.jambatron-box{
+.jambatron-box {
   height: 335px;
   background-color: lightpink;
 }
 
-
-.col-jambatron{
+.col-jambatron {
   height: 680px;
   background-color: lightgreen;
 }
@@ -148,29 +127,26 @@ header{
 
 /* vioport 2  */
 
-.vioport-due{
+.vioport-due {
   height: 690px;
   background-color: darkgoldenrod;
 }
 
-
 /* vioport-tre  */
 
-
-.vioport-tre{
+.vioport-tre {
   height: 715px;
   background-color: blue;
 }
 
-
 /* vioport 4  */
 
-.vioport-quattro{
+.vioport-quattro {
   height: 475px;
   background-color: aquamarine;
 }
 
-footer{
+footer {
   height: 135px;
   background-color: rgb(219, 139, 179);
 }
