@@ -36,6 +36,12 @@ header {
  
 }
 
+button{
+  background-color: rgb(224, 103, 109);
+  padding: 10px;
+  border-radius: 15px;
+}
+
 .nav-conteiner {
   height: 150px;
   width: 1900px;
@@ -104,6 +110,10 @@ header {
   margin-top: 30px;
 }
 
+.jambatron button{
+  margin-top: 30px;
+}
+
 
 
 .interspazio {
@@ -116,16 +126,36 @@ header {
 
 /* primo asset */
 
-.conteiner {
-  width: 80%;
-  height: 100%;
-  margin: auto;
+.main-conteiner{
+  width: 100%;
+  padding: 0 10%;
 }
 
-.box1 {
-  height: 412px;
-  background-color: cornflowerblue;
+
+#vioport1{
+  height: 410px;
 }
+
+.img-cube img{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  left: 50% ;
+  transform: translate(-50%);
+
+}
+
+.cube-text{
+  height: 410px;
+  text-align: center;
+  line-height: 410px;
+}
+
+.cube-text h3{
+  margin-top: 35px;
+}
+
+
 
 .jambatron-box {
   height: 335px;
