@@ -126,71 +126,66 @@ button{
 
 /* primo asset */
 
-.main-conteiner{
+/* .main-conteiner{
   width: 100%;
   padding: 0 10%;
-}
+} */
 
 
 #vioport1{
   height: 410px;
+  background-color: #F4F9FD;
+  position: relative;
 }
 
-.img-cube img{
+
+
+.cube img{
   width: 300px;
   height: 200px;
   position: absolute;
   left: 50% ;
   transform: translate(-50%);
+  margin-top: 30px;
 
 }
 
-.cube-text{
-  height: 410px;
+.cube-txt{
+  position: absolute;
   text-align: center;
-  line-height: 410px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 30px;
 }
 
-.cube-text h3{
-  margin-top: 35px;
+.cube-txt p{
+  color: rgb(145, 163, 163);
+  margin-top: 30px;
+}
+
+
+.free-hub{
+  height: 335px ;
+  width: 100%;
+  padding: 0 10%;
+}
+
+.hub-spot{
+ height: 350px;
+  background-color: aqua;
+  border: 1px solid olive;
 }
 
 
 
-.jambatron-box {
-  height: 335px;
-  background-color: lightpink;
-}
 
-.col-jambatron {
-  height: 680px;
-  background-color: lightgreen;
-}
+
+
+
+
 
 /* fine asset viopor 1 */
 
 /* vioport 2  */
 
-.vioport-due {
-  height: 690px;
-  background-color: darkgoldenrod;
-}
-
-/* vioport-tre  */
-
-.vioport-tre {
-  height: 715px;
-  background-color: blue;
-}
-
-/* vioport 4  */
-
-.vioport-quattro {
-  height: 475px;
-  background-color: aquamarine;
-}
-
-footer {
-  height: 135px;
-  background-color: rgb(219, 139, 179);
-}
