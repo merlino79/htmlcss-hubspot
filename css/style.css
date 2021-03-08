@@ -54,16 +54,23 @@ header{
   
 }
 
-.link-sx{
+
+.link-sx {
   width: 700px;
 
 }
 
-.link-dx{
-  width: 700px;
-  
-  
+.link-sx li{
+  display: inline;
+  padding: 0 10%;
 }
+
+.link-sx a{
+  text-decoration: none;
+}
+
+
+
 
 .nav-down{
   height: 75px;
@@ -78,14 +85,7 @@ header{
   width: 75px;
  
 }
-/* 
-.jambatron{
-  width: 700px;
-  height: 450px;
-  
-  margin-left: 30px;
 
-}
 
 .jambatron-text{
   
