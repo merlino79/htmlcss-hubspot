@@ -62,13 +62,16 @@ header{
 
 .link-sx li{
   display: inline;
-  padding: 0 10%;
+  padding: 0 2%;
 }
 
 .link-sx a{
   text-decoration: none;
 }
 
+.pad a{
+  border-right: 1px solid black;
+}
 
 
 
