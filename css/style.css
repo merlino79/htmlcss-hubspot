@@ -51,26 +51,37 @@ header{
   height: 75px;
   line-height: 75px;
   background-color: #F4F9FD;
+  border-bottom: 1px solid olive;
   
 }
 
 
 .link-sx {
-  width: 700px;
+  width: 300px;
 
 }
 
 .link-dx{
-  width: 700px;
+  width: 1200px;
   text-align: right;
 }
 
-.link-sx li{
+.link-sx  li{
   display: inline;
   padding: 0 2%;
 }
 
-.link-sx a{
+.link-dx li{
+  display: inline;
+  padding: 0 2%;
+}
+
+.link-sx  a{
+  text-decoration: none;
+  
+}
+
+.link-dx a{
   text-decoration: none;
 }
 
