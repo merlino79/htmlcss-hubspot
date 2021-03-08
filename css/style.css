@@ -40,19 +40,28 @@ header{
   height: 150px;
   width: 1900px;
   padding: 0 10%;
-  background-color: beige;
+  background-color: #F4F9FD;
+  ;
   
 
 }
 
 .nav-up{
   height: 75px;
-  background-color: blueviolet;
+  line-height: 75px;
+  background-color: #F4F9FD;
+  
 }
+
+
+
 .nav-down{
   height: 75px;
-  background-color: burlywood;
+  line-height: 75px;
+  background-color: #FFFFFF;
 }
+
+
 
 .logo img{
   width: 75px;
