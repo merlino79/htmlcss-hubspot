@@ -173,8 +173,47 @@ button{
 
 .hub-spot{
  height: 350px;
-  background-color: aqua;
+ width: 30%;
+ 
   border: 1px solid olive;
+ 
+ 
+}
+
+.hub-img{
+  width: 20%;
+  height: 200px;
+  position: relative;
+  
+  
+ 
+}
+
+.hub-img img{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50% -100%);
+
+  
+
+}
+.hub-spot button{
+ margin-top: 50px;
+ margin-left: 100px;
+ width: 150px;
+
+
+}
+
+.free-hub-txt{
+  width: 70%;
+  height: 350px;
+  background-color: beige;
+ 
+  
 }
 
 
