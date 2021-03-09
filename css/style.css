@@ -7,7 +7,7 @@
 body {
  
   
-  min-width: 1400px;
+  min-width: 2000px;
 }
 
 /* classi iniziali */
@@ -331,11 +331,15 @@ section .col{
   background-color: rgb(231, 152, 159);
   border-right: 1px solid black;
   border-bottom : 1px solid black;
+  text-align: center;
+  
+
+ 
 }
 
 .box-logo img{
   width: 70px;
   height: 100px;
-  line-height: 100px;
+ 
 
 }
