@@ -362,20 +362,21 @@ section .col{
 
 #vioport3{
   height: 715px;
-  background-color: rgb(212, 240, 186);
+ 
   position: relative;
 }
 
 .box-vioport-3{
   width: 30%;
   height: 715px;
-  background-color: blanchedalmond;
+  
 }
 
 .box-dx-vioport-3{
   width: 70%;
   height: 715px;
-  background-color: aquamarine;
+
+  position: relative;
 }
 
 .box-up{
@@ -396,9 +397,9 @@ section .col{
 
 .box-down{
 
-
+width: 450px;
 height: 400px;
-background-color: blue;
+
 position: absolute;
 top: 254px;
 
@@ -410,8 +411,8 @@ top: 254px;
 #box-logo-dx{
   width: 760px;
   height: 130px;
-  background-color: burlywood;
-  position: relative;
+  
+ 
 }
 
 .img-sponsor{
@@ -440,5 +441,7 @@ top: 254px;
 .img-girl img{
   width: 300px;
   height: 400px;
-  
+  position: absolute;
+  top: 40%;
+  left: 34%;
 }
