@@ -20,7 +20,9 @@ body {
 .float-left {
   float: left;
 }
-
+.float-right{
+  float: right;
+}
 /* header  */
 
 header {
@@ -304,6 +306,7 @@ section .col{
 
 .txt-vioport-due h1{
   color: rgb(240, 240, 240);
+  margin-top: 30px;
  
   
 
@@ -311,6 +314,7 @@ section .col{
 
 .txt-vioport-due p{
   color: rgb(240, 240, 240);
+  margin-top: 10px;
   
 
 }
@@ -342,4 +346,24 @@ section .col{
   height: 100px;
  
 
+}
+/* fine vioport 2 */
+
+/* inizio vioport 3 */
+
+#vioport3{
+  height: 715px;
+  background-color: rgb(212, 240, 186);
+}
+
+.box-vioport-3{
+  width: 30%;
+  height: 200px;
+  background-color: blanchedalmond;
+}
+
+.box-dx-vioport-3{
+  width: 70%;
+  height: 200px;
+  background-color: aquamarine;
 }
