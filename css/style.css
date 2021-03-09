@@ -358,12 +358,28 @@ section .col{
 
 .box-vioport-3{
   width: 30%;
-  height: 200px;
+  height: 715px;
   background-color: blanchedalmond;
 }
 
 .box-dx-vioport-3{
   width: 70%;
-  height: 200px;
+  height: 715px;
   background-color: aquamarine;
+}
+
+.box-up{
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  left: 7%;
+}
+.txt-vioport3{
+  color: blueviolet;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.txt-vioport3 p{
+ margin-top: 30px;
 }
