@@ -284,26 +284,58 @@ section .col{
   width: 100%;
   height: 695px;
   background-color: rgb(126, 201, 236);
+  position: relative;
   
 
 }
 
 .txt-vioport-due{
   height: 100px;
-  line-height: 100px;
+  text-align: center;
+  width: 600px;
+  position: absolute;
+  left: 30%;
+
+} 
   
 
 
-}
+
 
 .txt-vioport-due h1{
   color: rgb(240, 240, 240);
-  font-size: 30px;
+ 
+  
 
 }
 
 .txt-vioport-due p{
   color: rgb(240, 240, 240);
   
+
+}
+
+.box-info-up{
+  position: absolute;
+  top: 160px;
+  left: 160px;
+  padding: 0 10%;
+  width: 70%;
+  
+}
+
+
+.box-logo{
+  width: 250px;
+  height: 250px;
+  background-color: rgb(231, 152, 159);
+  border-right: 1px solid black;
+  border-bottom : 1px solid black;
+}
+
+.box-logo img{
+  width: 70px;
+  height: 100px;
+  line-height: 100px;
 
 }
