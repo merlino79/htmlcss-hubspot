@@ -404,19 +404,26 @@ top: 254px;
 
 }
 
+/* inizio loghi  */
+
+
 #box-logo-dx{
   width: 760px;
   height: 130px;
   background-color: burlywood;
+  position: relative;
 }
 
 .img-sponsor{
-  width: 150px;
+  width: 100px;
   height: 50px;
+  line-height: 100px;
 }
 
 .sponsor-up{
   height: 65px;
+  padding: 0 6%;
+  line-height: 65px;
 }
 .sponsor-up ul{
   list-style: none;
@@ -428,4 +435,10 @@ top: 254px;
 
 .sponsor-up a{
 
+}
+
+.img-girl img{
+  width: 300px;
+  height: 400px;
+  
 }
