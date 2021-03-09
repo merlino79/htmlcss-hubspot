@@ -404,8 +404,28 @@ top: 254px;
 
 }
 
-.box-logo-dx{
-  width: 600px;
-  height: 100px;
+#box-logo-dx{
+  width: 760px;
+  height: 130px;
   background-color: burlywood;
+}
+
+.img-sponsor{
+  width: 150px;
+  height: 50px;
+}
+
+.sponsor-up{
+  height: 65px;
+}
+.sponsor-up ul{
+  list-style: none;
+}
+
+.sponsor-up li{
+  display: inline;
+}
+
+.sponsor-up a{
+
 }
