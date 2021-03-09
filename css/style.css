@@ -191,6 +191,8 @@ button{
   position: relative;
   
   
+  
+  
  
 }
 
@@ -201,6 +203,7 @@ button{
   top: 50%;
   left: 100%;
   transform: translate(-50% -100%);
+  
 
   
 
@@ -262,9 +265,15 @@ button{
  
 }
 
+
+.img-buble{
+  display: inline-block;
+}
+
 .img-buble img{
-  width: 20%;
+  width: 100px;
   height: 150px;
+  text-align: center;
   
 }
 
@@ -387,10 +396,16 @@ section .col{
 
 .box-down{
 
-width: 450px;
-height: 300px;
+
+height: 400px;
 background-color: blue;
 position: absolute;
-top: 300px;
-text-align: center;
+top: 254px;
+
+}
+
+.box-logo-dx{
+  width: 600px;
+  height: 100px;
+  background-color: burlywood;
 }
