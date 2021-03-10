@@ -473,9 +473,20 @@ top: 254px;
 .box-link a{
   color: white;
   text-align: center;
+  text-decoration: none;
 }
 
 .first-link ul{
   list-style: none;
+  
 }
 
+li a.hight{
+  color: aqua;
+  margin-bottom: 20px;
+}
+
+button.link{
+  color: azure;
+  background-color: lightgray;
+}
