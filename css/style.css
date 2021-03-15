@@ -104,13 +104,15 @@ body{
 
 
 button{
-  background-color: rgb(224, 103, 109);
-  padding: 7px;
+  background-color: rgb(224, 141, 103);
+  padding: 10px;
   border-radius: 7px;
-  width: 100px;
-  text-align: right;
-  margin: 10px;
+  margin: 0 5px;
+  width: 120px;
+ 
+
 }
+
 
 
 
@@ -270,7 +272,7 @@ button{
 
 
 .col{
-  width: calc(80% / 4 - 10px - 10px );
+  width: calc(100% / 3 - 10px - 10px );
   height: 650px;
   background-color: burlywood;
   margin: 10px;
