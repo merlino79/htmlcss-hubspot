@@ -92,10 +92,6 @@ body{
 }
 
 
-#info{
-  height: 450px;
-  
-}
 
 
 .link-sx li, .link-dx li {
@@ -142,13 +138,25 @@ button{
  
 }
 
+.jambatron-text {
+  width: 30%;
+  height: 400px;
+  padding: 30px 15px;
+ 
+ 
+
+}
+
+
 .jambatron-text h1{
-  font-size: 63px;
-  margin-top: 75px;
+ 
+  font-size: 35px;
+  
+ 
 }
 
 .jambatron-text p{
-  color: burlywood;
+  color: rgb(73, 46, 10);
   margin-top: 30px;
 }
 
@@ -164,15 +172,6 @@ button{
   border: 1px solid black;
 }
 
-
-/* fine nav  */
-
-/* primo asset */
-
-/* .main-conteiner{
-  width: 100%;
-  padding: 0 10%;
-} */
 
 
 #vioport1{
@@ -207,12 +206,14 @@ button{
   margin-top: 30px;
 }
 
-
-.free-hub{
-  height: 335px ;
+#hub-spot{
   width: 100%;
-  padding: 0 10%;
+  height: 410px;
+  background-color: brown;
 }
+  
+
+
 
 
 
@@ -250,12 +251,7 @@ button{
 
 /* fine css cubo  */
 
-.hub-spot{
-  width: 100%;
-  height: 410px;
-  background-color: brown;
-}
-  
+
 
  
   
@@ -274,7 +270,7 @@ button{
 
 
 .col{
-  width: calc(1900px / 4 );
+  width: calc(80% / 4 - 10px - 10px );
   height: 650px;
   background-color: burlywood;
   margin: 10px;
